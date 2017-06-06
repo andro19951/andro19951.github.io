@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0048)file:///var/www/html/files/Themes/red/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="cufon-active cufon-ready"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Resume</title>
+<link type="text/css" rel="stylesheet" href="./Resume_files/red.css">
+<link type="text/css" rel="stylesheet" href="./Resume_files/print.css" media="print">
+<!--[if IE 7]>
+<link href="css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="./Resume_files/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="./Resume_files/jquery.tipsy.js"></script>
+<script type="text/javascript" src="./Resume_files/cufon.yui.js"></script><style type="text/css">cufon{text-indent:0!important;}@media screen,projection{cufon{display:inline!important;display:inline-block!important;position:relative!important;vertical-align:middle!important;font-size:1px!important;line-height:1px!important;}cufon cufontext{display:-moz-inline-box!important;display:inline-block!important;width:0!important;height:0!important;overflow:hidden!important;text-indent:-10000in!important;}cufon canvas{position:relative!important;}}@media print{cufon{padding:0!important;}cufon canvas{display:none!important;}}</style>
+<script type="text/javascript" src="./Resume_files/scrollTo.js"></script>
+<script type="text/javascript" src="./Resume_files/myriad.js"></script>
+<script type="text/javascript" src="./Resume_files/jquery.colorbox.js"></script>
+<script type="text/javascript" src="./Resume_files/custom.js"></script>
+<script type="text/javascript">
+		Cufon.replace('h1,h2');
+</script>
+</head>
+<body><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" style="padding-bottom: 50px; padding-right: 50px; display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxLoadedContent" class="" style="width: 0px; height: 0px;"></div><div id="cboxLoadingOverlay" class=""></div><div id="cboxLoadingGraphic" class=""></div><div id="cboxTitle" class=""></div><div id="cboxCurrent" class=""></div><div id="cboxSlideshow" class=""></div><div id="cboxNext" class=""></div><div id="cboxPrevious" class=""></div><div id="cboxClose" class=""></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position:absolute; top:0; left:0; width:9999px; height:0;"></div></div>
+<!-- Begin Wrapper -->
+<div id="wrapper">
+  <div class="wrapper-top"></div>
+  <div class="wrapper-mid">
+    <!-- Begin Paper -->
+    <div id="paper">
+      <div class="paper-top"></div>
+      <div id="paper-mid">
+        <div class="entry">
+          <!-- Begin Image -->
+          <img class="portrait" src="./Resume_files/profile.jpg" alt="Andro Gvivradze">
+          <!-- End Image -->
+          <!-- Begin Personal Information -->
+          <div class="self">
+            <h1 class="name"><cufon class="cufon cufon-canvas" alt="Andro " style="width: 118px; height: 42px;"><canvas width="148" height="42" style="width: 148px; height: 42px; top: 0px; left: -2px;"></canvas><cufontext>Andro </cufontext></cufon><cufon class="cufon cufon-canvas" alt="Gvivradze" style="width: 174px; height: 42px;"><canvas width="192" height="42" style="width: 192px; height: 42px; top: 0px; left: -2px;"></canvas><cufontext>Gvivradze</cufontext></cufon><br><span><cufon class="cufon cufon-canvas" alt="software " style="width: 81px; height: 21px;"><canvas width="96" height="21" style="width: 96px; height: 21px; top: 0px; left: -1px;"></canvas><cufontext>software </cufontext></cufon><cufon class="cufon cufon-canvas" alt="developer" style="width: 89px; height: 21px;"><canvas width="102" height="21" style="width: 102px; height: 21px; top: 0px; left: -1px;"></canvas><cufontext>developer</cufontext></cufon></span></h1>
+            <ul>
+              <li class="ad">akademia tee 11/2</li>
+              <li class="mail">gvivradze.andro@gmail.com</li>
+              <li class="tel">+372 5324 5127</li>
+            </ul>
+          </div>
+          <!-- End Personal Information -->
+          <!-- Begin Social -->
+          <div class="social">
+            <ul>
+
+              <li><a class="north" href="https://github.com/andro19951" original-title="Github"><img class="git" src="./Resume_files/git.jpg" alt=""></a></li>
+              <li><a class="north" href="https://www.linkedin.com/in/andro-gvivradze-564967105/" original-title="My LinkedIn Profile"><img class="giti" src="./Resume_files/linkedin-logo-in.jpeg" alt=""></a></li>
+              <li><a class="north" href="https://www.facebook.com/andro.gvivradze" original-title="My Facebook Profile"><img src="./Resume_files/icn-facebook.jpg" alt=""></a></li>
+            </ul>
+          </div>
+          <!-- End Social -->
+        </div>
+        <!-- Begin 1st Row -->
+        <div class="entry">
+          <h2><cufon class="cufon cufon-canvas" alt="About" style="width: 58px; height: 22px;"><canvas width="71" height="22" style="width: 71px; height: 22px; top: 0px; left: -1px;"></canvas><cufontext>About</cufontext></cufon><cufon class="cufon cufon-canvas" alt=" Me" style="width: 34px; height: 22px;"><canvas width="43" height="22" style="width: 43px; height: 22px; top: 0px; left: -1px;"></canvas><cufontext> Me</cufontext></cufon></h2>
+          <p>I'm hard-working and inquisitive person, who is always ready to try and learn something new. </p>
+        </div>
+        <!-- End 1st Row -->
+        <!-- Begin 2nd Row -->
+        <div class="entry">
+          <h2><cufon class="cufon cufon-canvas" alt="EDUCATION" style="width: 110px; height: 22px;"><canvas width="116" height="22" style="width: 116px; height: 22px; top: 0px; left: -1px;"></canvas><cufontext>EDUCATION</cufontext></cufon></h2>
+          <div class="content">
+            <h3>Sep 2015 - june 2016</h3>
+            <p>San Diego State University- georgian Campus <br>
+              <em>Computer engineering/ biocemistry minor</em></p>
+          </div>
+          <div class="content">
+            <h3>Sep 20016 - present</h3>
+            <p>Tallinn University of Technology<br>
+              <em>Integrated engineering</em></p>
+          </div>
+        </div>
+        <!-- End 2nd Row -->
+        <!-- Begin 3rd Row -->
+        <div class="entry">
+          <h2><cufon class="cufon cufon-canvas" alt="EXPERIENCE" style="width: 112px; height: 22px;"><canvas width="122" height="22" style="width: 122px; height: 22px; top: 0px; left: -1px;"></canvas><cufontext>EXPERIENCE</cufontext></cufon></h2>
+          <div class="content">
+            <h3>April 2016 - june 2016</h3>
+            <p>national assessment and examination center Georgia<br>
+              <em>Java developer</em></p>
+            <ul class="info">
+              <li>worked in 5 man team to develop <a href="https://play.google.com/store/apps/details?id=com.phantom.Gapp.apps.napp&amp;hl=en">Napp</a>, application for young students in order to prepare them for exam</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>April 2016 - May 2016</h3>
+            <p>national assessment and examination center Georgia<br>
+              <em>Java developer</em></p>
+            <ul class="info">
+              <li>worked in 5 man team to develop <a href="file:///var/www/html/files/Themes/red/index.html#">Napp</a>, application for young students in order to prepare them for exam</li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 3rd Row -->
+        <!-- Begin 4th Row -->
+        <div class="entry">
+          <h2><cufon class="cufon cufon-canvas" alt="SKILLS" style="width: 60px; height: 22px;"><canvas width="70" height="22" style="width: 70px; height: 22px; top: 0px; left: -1px;"></canvas><cufontext>SKILLS</cufontext></cufon></h2>
+          <div class="content">
+            <h3>Skills</h3>
+            <ul class="skills">          
+              <li>HTML/HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>C/C++</li>
+              <li>PHP</li>
+              <li>python</li>
+              <li>jquery</li>
+              <li>angularJs</li>
+              <li>nodeJs</li>
+              <li>ionic framework</li>
+              <li>Codeigniter framework</li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 4th Row -->
+         <!-- Begin 5th Row -->
+        <div class="entry">
+        <h2><cufon class="cufon cufon-canvas" alt="random" style="width: 73px; height: 22px;"><canvas width="75" height="22" style="width: 75px; height: 22px; top: 0px; left: -1px;"></canvas><cufontext>random</cufontext></cufon><cufon class="cufon cufon-canvas" alt=" projects" style="width: 79px; height: 22px;"><canvas width="91" height="22" style="width: 91px; height: 22px; top: 0px; left: -1px;"></canvas><cufontext> projects</cufontext></cufon></h2>
+        	<ul class="works">
+        		<li><a class="big" href="http://shouldigo.info/"><b>The holiday planner, created on garage48</b></a></li>
+        		<li><a class="big" href="http://kodu.ut.ee/~prokopov/wierdhackathon/adminpart.html"><b>The mockap for an application that would allow citizens to better comunicate with government. created on garage48</b></a></li>
+            <li><a href="https://www.f6s.com/solidwave"> co-founder of Solid Wave, startup company which tries to resolve outdoor parking problems in cities</a></li>
+        	</ul>
+        </div>
+        <!-- Begin 5th Row -->
+      </div>
+      <div class="clear"></div>
+      <div class="paper-bottom"></div>
+    </div>
+    <!-- End Paper -->
+  </div>
+  <div class="wrapper-bottom"></div>
+</div>
+<div id="message" style="display: none;"><a href="file:///var/www/html/files/Themes/red/index.html#top" id="top-link">Go to Top</a></div>
+<!-- End Wrapper -->
+
+
+</body></html>
