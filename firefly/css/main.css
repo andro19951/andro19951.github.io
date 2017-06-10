@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+#map {
+
+ height: 80%;
+ width: 70%;
+ position: absolute;
+}
+body{
+ background-color: rgba(51, 87, 134, 100);
+}
+.hohoho{
+position: absolute;
+margin-top:-400px;
+}
+
+body {
+margin: 0px;
+font-family: Roboto;
+}
+body{
+    background-color: light blue;
+    padding:50px;
+    background-size:cover;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+input, textarea, select{
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 20px;
+}
+button {
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 7px;
+  border: none;
+  background-color: #FB3640;
+  color: white;
+  font-family: Roboto;
+  font-size: 14px;
+}
+#blog{
+  position: ;
+  height:20%;
+  width:90%;
+  padding-left: 2%;
+}
+.blogShort{ border-bottom:1px solid #ddd, margin-left:50px;}
+.add{background: #333; padding: 10%; height: 300px;}
+
+.nav-sidebar { 
+    width: 20%;
+    padding: 80px 0; 
+    border-right: 1px solid #ddd;
+}
+.nav-sidebar a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+}
+.nav-sidebar .active a { 
+    cursor: default;
+    background-color: #34ca78; 
+    color: #fff; 
+}
+.nav-sidebar .active a:hover {
+    background-color: #37D980;   
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; 
+}
+
+.btn-blog {
+    color: #ffffff;
+    background-color: #37d980;
+    border-color: #37d980;
+    border-radius:0;
+    margin-:50px;
+}
+.btn-blog:hover,
+.btn-blog:focus,
+.btn-blog:active,
+.btn-blog.active,
+.open .dropdown-toggle.btn-blog {
+    color: white;
+    background-color:#34ca78;
+    border-color: #34ca78;
+}
+ h2{color:#0000000;}
+ .margin10{margin-bottom:0px; margin-right:0px;}
+ 
+.newsfeed {
+    margin-left: 75%;
+
+
+}
+.clearfix{
+    clear:both
+}
+* {
+    box-sizing: border-box;
+}
+/*This just stops me getting horizontal scrolling if anything overflows the width*/
+body {
+    overflow-x: hidden;
+}
+#andro{background-color:#beeeef;}
+.me{
+
+  background-color:#beeeef;
+  border-radius:5px;
+  width:80%;
+
+
+}
+/*This is our main wrapping element, it's made 100vh high to ensure it is always the correct size and then moved into place and padded with negative margin and padding*/
+/*.Container1 {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    margin-top: -100px;
+    padding-top: 100px;
+    position: relative;
+    width: 100%;
+    backface-visibility: hidden;
+    will-change: overflow;
+}*
+/*All the scrollable sections should overflow and be whatever height they need to be. As they are flex-items (due to being inside a flex container) they could be made to stretch full height at all times if needed.
+WebKit inertia scrolling is being added here for any present/future devices that are able to make use of it.
+*/
+.newsfeed {
+    text-decoration-color: white;
+    overflow: auto;
+    height: 89.3%;
+    padding: 3rem;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+}
+/*Entirely optional – just wanted to remove the scrollbar on WebKit browsers as I find them ugly*/
+.newsfeed::-webkit-scrollbar {
+    display: none;
+}
+.newsfeed {
+    width: 45.5rem;
+    background-color: none;
+}
