@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html ng-app="minmax" ng-controller="map">
+  <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+  </script>
+  <script src="http://www.chartjs.org/dist/2.6.0/Chart.bundle.js"></script>
+     <script src="http://www.chartjs.org/samples/latest/utils.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="bower_components/ngmap/build/scripts/ng-map.min.js"></script>
+    <style>
+      canvas {
+          -moz-user-select: none;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+      }
+      </style>
+
+  </head>
+   <body >
+     <a class="dada" href="index.html"><img src="img/faro-logo.png" class="adadad"></a>
+     <br/>
+     <div class="box fucking box"> </div>
+     <nav class="navbar navbar-default meme" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+                <li ><a href="report.html"><span id="me">Report</span></a></li>
+                <li ><a href="about.html"><span id="me">About</span></a></li>      </ul>
+
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+			<ul id="login-dp" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+								Login via
+								<div class="social-buttons">
+									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                                or
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								New here ? <a href="#"><b>Join Us</b></a>
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+  <div style="width: 75%">
+      <canvas id="canvas"></canvas>
+  </div>
+  <button  style="background-color: #a3171e; border-color: #a3171e; width: 20%;" class="btn btn-primary btn-md" href="index.html"><a href="ngo.html" style="color: white;" >Contribute</a></button>
+
+  <script>
+      var barChartData = {
+          labels: ["blankets", "water", "big tents", "warm clothes", "furry shoes"],
+          datasets: [{
+              label: 'unconfirmed',
+              backgroundColor: window.chartColors.green,
+              data: [
+                3000,
+                  13000,
+                  10,
+                  1200,
+                130
+              ]
+          }, {
+              label: 'sent',
+              backgroundColor: window.chartColors.blue,
+              data: [
+                  2000,
+                  2000,
+                  120,
+                  3200,
+                  4300
+              ]
+          },
+          {
+              label: 'Needed',
+              backgroundColor: window.chartColors.red,
+              data: [
+                  10000,
+                  40000,
+                  1300,
+                  9000,
+                  7000
+              ]
+          }
+        ]
+
+      };
+      window.onload = function() {
+          var ctx = document.getElementById("canvas").getContext("2d");
+          window.myBar = new Chart(ctx, {
+              type: 'bar',
+              data: barChartData,
+              options: {
+                  title:{
+                      display:true,
+                      text:""
+                  },
+                  tooltips: {
+                      mode: 'index',
+                      intersect: false
+                  },
+                  responsive: true,
+                  scales: {
+                      xAxes: [{
+                          stacked: false,
+                      }],
+                      yAxes: [{
+                          stacked: false
+                      }]
+                  }
+              }
+          });
+      };
+
+      document.getElementById('randomizeData').addEventListener('click', function() {
+          barChartData.datasets.forEach(function(dataset, i) {
+              dataset.data = dataset.data.map(function() {
+                  return randomScalingFactor();
+              });
+          });
+          window.myBar.update();
+      });
+  </script>
+  </body>
+  <script src="js/report.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+</html>
