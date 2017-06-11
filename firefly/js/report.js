@@ -46,14 +46,15 @@ $(document).ready(function() {
             $item = $(this).closest('li');
 
         if (!$item.hasClass('disabled')) {
-            navListItems.closest('li').removeClass('active');
-            $item.addClass('active');
+            navListItems.closest('li').removeClass('mactive');
+            navListItems.closest('li').addClass('mamamia');
+            $item.addClass('mactive');
             allWells.hide();
             $target.show();
         }
     });
 
-    $('ul.setup-panel li.active a').trigger('click');
+    $('ul.setup-panel li.mactive a').trigger('click');
 
     // DEMO ONLY //
     $('#activate-step-2').on('click', function(e) {
