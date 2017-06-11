@@ -132,7 +132,7 @@ console.log($scope.a);
 
   $scope.customIcon = {
       "scaledSize": [32, 32],
-      "url": "http://www.ptgenergy.co.th/images/contact/icon3.png"
+      "url": "../icon3.png"
   };
 
 });
